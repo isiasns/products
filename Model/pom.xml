@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>model</name>
-    <description>SkyTouch Exercise (Microservice)</description>
+    <description>NS Exercise (Microservice)</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
