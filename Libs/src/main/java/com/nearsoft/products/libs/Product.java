@@ -1,12 +1,15 @@
 package com.nearsoft.products.libs;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "products")
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@ToString
 public class Product {
     @Id
     @GeneratedValue
@@ -31,5 +34,5 @@ public class Product {
     @Column(name = "price")
     @Getter
     @Setter
-    private float price;
+    private double price;
 }
