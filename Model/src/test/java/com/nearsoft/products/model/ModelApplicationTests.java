@@ -3,13 +3,10 @@ package com.nearsoft.products.model;
 import com.nearsoft.products.libs.Product;
 import com.nearsoft.products.model.repository.ProductRepository;
 import com.nearsoft.products.model.service.ProductService;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -29,7 +26,7 @@ public class ModelApplicationTests {
     }
 
     @Test
-    public void testInsertNewProduct(){
+    public void testInsertNewProduct() {
         Product product = Product.builder().name("Name").description("Description")
                 .manufacturer("Manufacturer").sku("SKU").price(0.0).build();
         productService.save(product);
@@ -37,11 +34,12 @@ public class ModelApplicationTests {
     }
 
     @Test
-    public void testFindAllProducts(){
+    public void testFindAllProducts() {
         Product product = Product.builder().name("Name").description("Description")
                 .manufacturer("Manufacturer").sku("SKU").price(0.0).build();
         productService.save(product);
-        assertThat(productService.findAll()).first().hasFieldOrPropertyWithValue("name", "Name");;
+        assertThat(productService.findAll()).first().hasFieldOrPropertyWithValue("name", "Name");
+        ;
     }
 
 }
