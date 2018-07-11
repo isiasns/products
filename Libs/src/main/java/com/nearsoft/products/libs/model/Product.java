@@ -1,4 +1,4 @@
-package com.nearsoft.products.libs;
+package com.nearsoft.products.libs.model;
 
 import lombok.*;
 

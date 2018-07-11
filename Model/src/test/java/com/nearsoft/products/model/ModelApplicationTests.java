@@ -1,6 +1,6 @@
 package com.nearsoft.products.model;
 
-import com.nearsoft.products.libs.Product;
+import com.nearsoft.products.libs.model.Product;
 import com.nearsoft.products.model.repository.ProductRepository;
 import com.nearsoft.products.model.service.ProductService;
 import org.junit.Test;
@@ -22,10 +22,6 @@ public class ModelApplicationTests {
     private ProductRepository productRepository;
 
     @Test
-    public void contextLoads() {
-    }
-
-    @Test
     public void testInsertNewProduct() {
         Product product = Product.builder().name("Name").description("Description")
                 .manufacturer("Manufacturer").sku("SKU").price(0.0).build();
@@ -39,7 +35,6 @@ public class ModelApplicationTests {
                 .manufacturer("Manufacturer").sku("SKU").price(0.0).build();
         productService.save(product);
         assertThat(productService.findAll()).first().hasFieldOrPropertyWithValue("name", "Name");
-        ;
     }
 
 }
