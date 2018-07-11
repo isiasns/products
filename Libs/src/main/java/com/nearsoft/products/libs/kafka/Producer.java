@@ -16,7 +16,7 @@ public class Producer {
     private KafkaTemplate<String, String> kafkaTemplate;
 
     @Value("${jsa.kafka.topic}")
-    String kafkaTopic = "ns-products";
+    String kafkaTopic = "products";
 
     public void send(String data) {
         log.info("sending data='{}'", data);
