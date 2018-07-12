@@ -1,7 +1,6 @@
 package com.nearsoft.products.model;
 
 import com.nearsoft.products.libs.model.Product;
-import com.nearsoft.products.model.repository.ProductRepository;
 import com.nearsoft.products.model.service.ProductService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,9 +16,6 @@ public class ModelApplicationTests {
 
     @Autowired
     private ProductService productService;
-
-    @Autowired
-    private ProductRepository productRepository;
 
     @Test
     public void testInsertNewProduct() {
