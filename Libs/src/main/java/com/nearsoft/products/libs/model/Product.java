@@ -9,7 +9,6 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@ToString
 public class Product {
     @Id
     @GeneratedValue
@@ -35,4 +34,11 @@ public class Product {
     @Getter
     @Setter
     private double price;
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id='" + id + "'" + ", name='" + name + "'" + ", description='" + description + "'"
+                + ", sku='" + sku + "'" + ", manufacturer='" + manufacturer + "'" + ", price='" + price + "'" + "}";
+    }
 }

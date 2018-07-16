@@ -4,10 +4,10 @@ import com.nearsoft.products.libs.model.Product;
 import com.nearsoft.products.model.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Repository
 public class ProductServiceImpl implements ProductService {
     @Autowired
     private ProductRepository productRepository;
