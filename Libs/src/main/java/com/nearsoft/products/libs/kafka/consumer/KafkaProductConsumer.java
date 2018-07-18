@@ -10,8 +10,8 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Consumer {
-    private static final Logger LOGGER = LoggerFactory.getLogger(Consumer.class);
+public class KafkaProductConsumer {
+    private static final Logger LOGGER = LoggerFactory.getLogger(KafkaProductConsumer.class);
 
     @KafkaListener(topics = "${kafka.topic}")
     public void receive(@Payload Product product, @Headers MessageHeaders messageHeaders) {
