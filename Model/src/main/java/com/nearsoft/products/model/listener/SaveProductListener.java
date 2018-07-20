@@ -24,7 +24,7 @@ public class SaveProductListener {
     }
 
     @KafkaListener(topics = "${kafka.topic.save}")
-    public void saveProduct(Product product){
+    public void saveProduct(Product product) {
         productService.save(product);
         LOGGER.info("persisted payload='{}'", product);
         latch.countDown();
