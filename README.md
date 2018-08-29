@@ -1,2 +1,2 @@
 # products
-SkyTouch Exercise
+NS Java Fullstack Exercise
