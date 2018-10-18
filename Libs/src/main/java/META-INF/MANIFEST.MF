@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Class-Path: antlr-2.7.7.jar spring-aop-4.3.11.RELEASE.jar spring-data-
+ jpa-1.11.7.RELEASE.jar spring-context-4.3.11.RELEASE.jar spring-boot-
+ starter-jdbc-1.5.7.RELEASE.jar tomcat-juli-8.5.20.jar spring-boot-1.5
+ .7.RELEASE.jar hibernate-core-5.0.12.Final.jar spring-boot-autoconfig
+ ure-1.5.7.RELEASE.jar spring-boot-starter-1.5.7.RELEASE.jar lombok-1.
+ 16.18.jar spring-expression-4.3.11.RELEASE.jar spring-boot-starter-da
+ ta-jpa-1.5.7.RELEASE.jar spring-beans-4.3.11.RELEASE.jar log4j-over-s
+ lf4j-1.7.25.jar logback-classic-1.1.11.jar jul-to-slf4j-1.7.25.jar ja
+ ndex-2.0.0.Final.jar hibernate-jpa-2.1-api-1.0.0.Final.jar spring-asp
+ ects-4.3.11.RELEASE.jar hibernate-commons-annotations-5.0.1.Final.jar
+  javax.transaction-api-1.2.jar aspectjweaver-1.8.10.jar jcl-over-slf4
+ j-1.7.25.jar spring-boot-starter-aop-1.5.7.RELEASE.jar logback-core-1
+ .1.11.jar javassist-3.21.0-GA.jar hibernate-entitymanager-5.0.12.Fina
+ l.jar dom4j-1.6.1.jar spring-data-commons-1.13.7.RELEASE.jar spring-c
+ ore-4.3.11.RELEASE.jar tomcat-jdbc-8.5.20.jar spring-tx-4.3.11.RELEAS
+ E.jar spring-boot-starter-logging-1.5.7.RELEASE.jar spring-orm-4.3.11
+ .RELEASE.jar slf4j-api-1.7.25.jar jboss-logging-3.3.1.Final.jar sprin
+ g-jdbc-4.3.11.RELEASE.jar snakeyaml-1.17.jar
+

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Class-Path: mysql-connector-java-8.0.11.jar lz4-1.3.0.jar spring-beans
+ -4.3.11.RELEASE.jar spring-data-jpa-1.11.7.RELEASE.jar spring-data-co
+ mmons-1.13.7.RELEASE.jar spring-tx-4.3.11.RELEASE.jar hibernate-core-
+ 5.0.12.Final.jar lombok-1.16.18.jar spring-boot-1.5.7.RELEASE.jar log
+ back-classic-1.1.11.jar spring-orm-4.3.11.RELEASE.jar spring-jdbc-4.3
+ .11.RELEASE.jar protobuf-java-2.6.0.jar spring-boot-starter-1.5.7.REL
+ EASE.jar jcl-over-slf4j-1.7.25.jar hibernate-commons-annotations-5.0.
+ 1.Final.jar jandex-2.0.0.Final.jar log4j-over-slf4j-1.7.25.jar kafka-
+ clients-0.10.2.0.jar spring-context-4.3.11.RELEASE.jar spring-express
+ ion-4.3.11.RELEASE.jar hibernate-entitymanager-5.0.12.Final.jar snake
+ yaml-1.17.jar snappy-java-1.1.2.6.jar spring-boot-starter-logging-1.5
+ .7.RELEASE.jar tomcat-jdbc-8.5.20.jar jackson-core-2.8.10.jar spring-
+ boot-autoconfigure-1.5.7.RELEASE.jar spring-kafka-1.2.2.RELEASE.jar j
+ avax.transaction-api-1.2.jar javassist-3.21.0-GA.jar dom4j-1.6.1.jar 
+ antlr-2.7.7.jar spring-messaging-4.3.11.RELEASE.jar spring-boot-start
+ er-aop-1.5.7.RELEASE.jar spring-retry-1.2.1.RELEASE.jar aspectjweaver
+ -1.8.10.jar tomcat-juli-8.5.20.jar spring-boot-starter-jdbc-1.5.7.REL
+ EASE.jar spring-core-4.3.11.RELEASE.jar jackson-annotations-2.8.0.jar
+  jboss-logging-3.3.1.Final.jar logback-core-1.1.11.jar jul-to-slf4j-1
+ .7.25.jar spring-boot-starter-data-jpa-1.5.7.RELEASE.jar jackson-data
+ bind-2.8.10.jar hibernate-jpa-2.1-api-1.0.0.Final.jar slf4j-api-1.7.2
+ 5.jar spring-aspects-4.3.11.RELEASE.jar spring-aop-4.3.11.RELEASE.jar
+Main-Class: 
+
